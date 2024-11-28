@@ -2,8 +2,8 @@ from flask_restful import Resource
 from flask import request
 import json
 
-books = [{"id": 1, "title": "Java book"},
-         {"id": 2, "title": "Python book"}]
+books = [{"id": 1, "title": "Java book", "author":"NA","Amount":100,"qnt":1},
+         {"id": 2, "title": "Python book", "author":"NA","Amount":100,"qnt":1}]
 
 
 class BooksGETResource(Resource):
